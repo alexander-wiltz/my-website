@@ -1,0 +1,41 @@
+.contact-main-container {
+  border: 3px solid var(--border-main-color);
+  border-radius: 15px;
+  padding: 10px;
+
+  font-family: var(--font-prime);
+}
+
+.contact-main-container-text {
+  height: fit-content;
+  text-align: left;
+}
+
+h2:before {
+  content: '> ';
+  color: var(--text-color-hacker);
+}
+
+.contact-main-container-form-inputgroup {
+  height: fit-content;
+  text-align: center;
+  font-size: 150%;
+}
+
+.contact-main-container-form-inputgroup input {
+  background-color: transparent;
+  color: var(--text-color-main);
+  border: 0;
+  border-bottom: 2px solid var(--border-main-color);
+
+}
+
+.contact-main-container-form-inputgroup-addon {
+  display: inline-block;
+  width: 40px;
+  padding: 15px 5px 15px 0;
+}
+
+.contact-main-container-form-inputgroup-addon i {
+  height: fit-content;
+}

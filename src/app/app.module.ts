@@ -11,6 +11,11 @@ import { ContactComponent } from './contact/contact.component';
 import { VitaComponent } from './vita/vita.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ImpressumComponent } from './impressum/impressum.component';
+import { AppRoutingModule } from './app-routing.module';
+import {ScrollPanelModule} from "primeng/scrollpanel";
+import {TimelineModule} from "primeng/timeline";
+import {CardModule} from "primeng/card";
+import {InputTextModule} from "primeng/inputtext";
 
 @NgModule({
   declarations: [
@@ -26,7 +31,12 @@ import { ImpressumComponent } from './impressum/impressum.component';
   ],
   imports: [
     BrowserModule,
-    SpeedDialModule
+    SpeedDialModule,
+    AppRoutingModule,
+    ScrollPanelModule,
+    TimelineModule,
+    CardModule,
+    InputTextModule
   ],
   providers: [],
   bootstrap: [AppComponent]

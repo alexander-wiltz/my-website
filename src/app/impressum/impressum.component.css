@@ -1,0 +1,16 @@
+.impressum-main-container {
+  border: 3px solid var(--border-main-color);
+  border-radius: 15px;
+  padding: 10px;
+
+  font-family: var(--font-prime);
+}
+
+.impressum-main-container-text {
+  height: fit-content;
+}
+
+h2:before {
+  content: '> ';
+  color: var(--text-color-hacker);
+}

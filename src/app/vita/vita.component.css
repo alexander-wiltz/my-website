@@ -1,0 +1,27 @@
+.vita-main-container {
+  border: 3px solid var(--border-main-color);
+  border-radius: 15px;
+  padding: 10px;
+
+  font-family: var(--font-prime);
+}
+
+.vita-main-container-text {
+  height: fit-content;
+}
+
+h2:before {
+  content: '> ';
+  color: var(--text-color-hacker);
+}
+
+.custom-marker {
+  display: flex;
+  width: 2rem;
+  height: 2rem;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  border-radius: 50%;
+  z-index: 1;
+}

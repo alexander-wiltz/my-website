@@ -1,0 +1,35 @@
+.footer-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-main-container-copy {
+  height: fit-content;
+}
+
+.footer-main-container-heart {
+  height: fit-content;
+}
+
+.footer-main-container-heart span {
+  color: red;
+}
+
+.footer-main-container-social {
+  height: fit-content;
+  margin-top: 7px;
+
+}
+
+.footer-main-container-social a {
+  font-size: 2em;
+  padding: 3px 7px 0 7px;
+  color: var(--link-color-main);
+}
+
+.footer-main-container-social a:hover {
+  opacity: 0.8;
+  color: var(--link-color-hover);
+}

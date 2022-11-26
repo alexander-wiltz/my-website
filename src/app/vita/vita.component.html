@@ -1,1 +1,22 @@
-<p>vita works!</p>
+<div class="vita-main-container">
+  <div class="vita-main-container-text">
+    <h2>Vita</h2>
+    <p-scrollPanel [style]="{width: '100%', height: '400px'}" styleClass="custom">
+      <p-timeline [value]="events">
+        <ng-template pTemplate="marker" let-event>
+        <span class="custom-marker shadow-2" [style.backgroundColor]="event.color">
+            <i [ngClass]="event.icon"></i>
+        </span>
+        </ng-template>
+        <ng-template pTemplate="content" let-event>
+          {{event.jobtitle}}<br>
+          <small class="p-text-secondary">{{event.company}}</small>
+        </ng-template>
+        <ng-template pTemplate="opposite" let-event>
+          <small class="p-text-secondary" *ngIf="event.startdate">Von: {{event.startdate}}</small><br>
+          <small class="p-text-secondary" [style.color]="event.tagcolor">Bis: {{event.enddate}}</small>
+        </ng-template>
+      </p-timeline>
+    </p-scrollPanel>
+  </div>
+</div>

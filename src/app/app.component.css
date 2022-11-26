@@ -1,7 +1,7 @@
 .main-container {
   display: grid;
   grid-template-columns: 20% auto 20%;
-  grid-template-rows: 20% auto 25%;
+  grid-template-rows: 20% 55% 25%;
   grid-template-areas:
     "header header header"
     "video content nav"

@@ -1,0 +1,38 @@
+.navigation-main-container {
+  padding-left: 35px;
+}
+
+.navigation-main-container-list {
+  padding-top: 15px;
+}
+
+.navigation-main-container-list ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation-main-container-list ul li {
+  height: fit-content;
+  width: fit-content;
+  padding-bottom: 15px;
+}
+
+.navigation-main-container-list ul li a {
+  color: var(--text-color-main);
+}
+
+.navigation-main-container-list ul li a i {
+  padding: 15px;
+  font-size: 200%;
+  color: var(--link-color-main);
+  border: 3px solid var(--link-color-main);
+  border-radius: 50%;
+}
+
+.navigation-main-container-list ul li a i:hover {
+  transform: translateX(10px);
+  color: var(--link-color-hover);
+  border-color: var(--link-color-hover);
+  transition: all 200ms linear;
+}

@@ -1,0 +1,56 @@
+.central-main-container {
+  border: 3px solid var(--border-main-color);
+  border-radius: 15px;
+  padding: 10px;
+  position: relative;
+
+  font-family: var(--font-prime);
+
+  display: grid;
+  grid-template-rows: auto 30%;
+  grid-template-areas: "text" "content";
+}
+
+.central-main-container-text {
+  grid-area: text;
+  height: fit-content;
+}
+
+.central-main-container-text h2 {
+  height: 25px;
+  width: fit-content;
+  overflow: hidden;
+  border-right: .15em solid var(--text-color-hacker);
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation:
+    typing 4.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+h2:before {
+  content: '> ';
+  color: var(--text-color-hacker);
+}
+
+.central-main-container-content {
+  grid-area: content;
+  text-align: right;
+}
+
+.central-main-container-content i {
+  height: fit-content;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 303px }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: var(--text-color-hacker); }
+}

@@ -7,9 +7,11 @@
 :root {
   --text-color-main: rgba(255, 255, 255, 0.8);
   --text-color-main-lighter: rgba(255, 255, 255, 1);
-  --text-color-hacker: rgba(0,220,0,0.5);
-  --bg-color-main: rgba(0,0,0,1);
-  --border-main-color: rgba(255,255,255,0.7);
+  --text-color-hacker: rgba(0, 220, 0, 0.5);
+  --bg-color-main: rgba(0, 0, 0, 1);
+  --border-main-color: rgba(255, 255, 255, 0.7);
+  --link-color-main: rgba(255, 255, 255, 0.8);
+  --link-color-hover: rgba(142, 22, 107, 1);
 
   --font-prime: SyneMono;
 }
