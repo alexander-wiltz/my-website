@@ -1,0 +1,30 @@
+.main-container {
+  display: grid;
+  grid-template-columns: 20% auto 20%;
+  grid-template-rows: 20% auto 25%;
+  grid-template-areas:
+    "header header header"
+    "video content nav"
+    "footer footer footer";
+}
+
+.header-container {
+  grid-area: header;
+}
+
+.video-container {
+  grid-area: video;
+}
+
+.content-container {
+  grid-area: content;
+  padding: 10px;
+}
+
+.nav-container {
+  grid-area: nav;
+}
+
+.footer-container {
+  grid-area: footer;
+}

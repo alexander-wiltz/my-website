@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+/* Global settings */
+@font-face {
+  font-family: 'SyneMono';
+  src: url("/assets/Syne_Mono/SyneMono-Regular.ttf");
+}
+
+:root {
+  --text-color-main: rgba(255, 255, 255, 0.8);
+  --text-color-main-lighter: rgba(255, 255, 255, 1);
+  --text-color-hacker: rgba(0,220,0,0.5);
+  --bg-color-main: rgba(0,0,0,1);
+  --border-main-color: rgba(255,255,255,0.7);
+
+  --font-prime: SyneMono;
+}
+
+* {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: var(--bg-color-main);
+  color: var(--text-color-main);
+  font-family: Arial, sans-serif;
+}
